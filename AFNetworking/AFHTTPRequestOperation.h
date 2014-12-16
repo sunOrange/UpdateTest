@@ -23,9 +23,7 @@
 #import <Foundation/Foundation.h>
 #import "AFURLConnectionOperation.h"
 
-/**
- Returns a set of MIME types detected in an HTTP `Accept` or `Content-Type` header.
- */
+
 extern NSSet * AFContentTypesFromHTTPHeader(NSString *string);
 
 extern NSString * AFCreateIncompleteDownloadDirectoryPath(void);
